@@ -1,0 +1,11 @@
+country,Age,Salary,Purchased
+a,45,78k,no
+b,28,48k,yes
+c,30,54k,no
+b,38,61k,no
+a,40,NaN,yes
+d,35,58k,yes
+c,NaN,53k,no
+b,48,79k,yes
+a,50,83k,no
+b,37,67k,yes

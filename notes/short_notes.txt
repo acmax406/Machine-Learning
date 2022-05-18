@@ -1,0 +1,533 @@
+machine learning 
+char-->
+perform automated data visualization
+precise data analysis
+business intelligence at it's finest
+
+advantages of machine learning
+> resolve the complex problem
+>automation
+>trend and pattern identification
+>wide range of application
+
+disadvantages
+>data acquisition // data gathering may be invalid/valid
+>highly error prone
+>algorithm selection
+>time-consuming
+
+classification of machine learning
+superwise learning:
+carried out infornt of the supervisor
+>used labeled data
+>spam filtering
+
+unsupervised learning:
+provide data> unclassified> uncleaned
+not under any supervisor
+>not labeled
+
+Reinforcement learning:
+get learn through out the time
+chess
+
+carrer opportunities-->
+data scientist
+
+Real world application of machine learning_
+alexa
+google
+google map
+youtube recommendataions
+self driving car
+
+Data collections==================================
+>identify various source of information
+>gather data
+>combine the data acquired from various data source
+data preparation==================================
+
+
+data modelling================
+selection machine learning algorithm
+building the models
+volidating the resutls
+
+Model training==============
+training the algorithm to identify the pattern
+
+Model verification===========
+You have to verify the input and find out that how much it is accurate
+
+model deployment==========
+
+(AI -->(ML--->(DL)))
+
+
+AI-->
+weak AI   and	strong AI
+
+weak AI-----------------
+Alexa
+we are currently working on the weak AI
+
+Strong AI---------------
+self making coffee maker
+
+
+deep learning::
+it can translate different language.
+colorization of the black and white images
+fraud news detection
+
+
+dataset=> a dataset is collection of records usually presented by tabular form
+csv= common separted value
+json= java script object notation (key and value format)
+
+types of dataset===>
+ numeric data(quantitative)
+ categorical data(qualitative)
+ Ordinal data( hybridisation of numeric and categorical data// rating because you give 1 star then poor 
+five star for the excellent quatity)
+
+
+
+https://registry.opendata.aws/
+https://archive.ics.uci.edu/ml/index.php
+https://msropendata.com/
+https://github.com/awesomedata/awesome-public-datasets
+htttps://scikit-learn.org/stable/
+https://www.visualdata.io/discovery
+https://data.gov.in/
+
+
+Feature and Label in machine learning
+
+Feature: in machine learning Feature means property of your training data.
+label: in machine learning label means the output you get from your model after 
+training.
+
+depend upon the goal and the hypothesis our feature and label will get change
+suppose we have to predict the heartbeat of the person
+prdiction --> label(heart beat)
+features-->> gender, age
+
+Supervised learning====================
+the data is well labeled.
+labeled dataset -->model training  --> prediction
+
+types of supervised machine learning algorithm
+
+regression------------>
+>> output varible : numeric
+>> we use there where there is relation between independent and the dependent variable
+>>continious value// salary determine// wether forcasting// market trend
+1.linear Regression
+2. Polynomial Regression
+3.regression Tree
+
+classification---------->
+>> output varible : categorical
+>>binary class.// multiclassification
+
+1.Random Forest
+2.Decision Tree
+3.Logistic Regression
+4.Support vector machines
+
+ advantages of supervised learning
+ >> full control what machine is learning
+ >> easily test and debug
+ >> can determine the number of calsses
+
+ disadvantages-->
+ have limited scope
+ callecting labelled dataset is expensive and time consuming
+ wrong prediction
+
+======================================================
+ unsupervised Learning
+======================================================
+does not use the label data.
+there is not supervisor to supervise the process.
+ 
+ unlabeled data --> interpretation(mpdel)--> algorithm --> processing --> output
+
+ types of unsupervised machine learining algorithm
+> clustering 
+Raw data --> algorithm --> output
+
+> association
+--------------------------------------------------------------
+unsupervised learning algorithm
+> k-means clustering
+> KNN( K-nearest neighbor)
+> Hierarchical clustering
+> Nural network/ deep  learining
+> single value decomposition
+> distribution models
+> principle component analysis
+> apriori algorithm
+
+=======================================
+training and testing data
+=======================================
+use 80% of the data to train your model and the  20% data to test your model
+
+==============================================================================================
+linear Regression || predictive analysis algorithm
+==============================================================================================
+
+linear regression is a machine learning algorithm based on supervised learning.
+it is statistical method that is used for predictive analysis. Linear regression make predictions for 
+continious numeric variables such as cost,age,sales, temperature, product price, etc.
+
+linear regression with single variables
+linear regression with multiple variables
+
+>> what is the water, and the compost requirement for good growth of the certain plant
+
+
+linear regression in multiple variable--->
+linear regression is a machine learning algorithm based on supervised learning.
+
+used for the predictive analysis. linear regression makes predictions for continious/Real
+or numeric variables such as cost,age,sale,temperature,product,prices, etc.
+
+example:
+two variable
+how much %water, %climatic cndition, %sunlight required to grow a good crop.
+
+the price of the house depend on the size and  the location.
+
+===============
+logistic regression is a machine learining algorithm based on supervised learning
+
+it is a statistical method that is used for predicting probability of target variable.
+Logistic regression makes probability for classification problems that are discrete in nature.
+
+binary classification --> win/loss
+multiple classification --> onion or potato or sweet potato|| lily or sunflower
+
+in real life --> heart attack tumor detection | credit card detection | spam detection
+
+logictic regression multiclassification-------------->
+==================================================================================================
+used for the classification
+------------------------------------------------------------------
+
+Use to predict the probability of a target variable.
+Logistic regression makes probability for classification problems that are discrete in nature.
+eg: english/hindi , true/false, right/wrong
+
+classification-->
+ win/loss
+binary classification and multiclassification  --->
+onino / poteto/sweet poteto
+==============================================================
+What is Decision Tree in Machine learning
+>>based on the supervised learning algorithm
+
+can be used for the regression as well as for the classification problems
+-------------------------------------------------------------------------------------------------------->>>>
+for regression requires the continious target variable
+fro classification the variable -> categorical variable
+
+goal of the decision tree--> calssifier
+
+structure of a decision tree-->
+                                root node
+
+        decison node                                        decision node
+
+leaf node           leaf node                       leaf node           decision node
+
+                                                                leaf node          leaf node
+
+
+
+real-life-->
+medical field to check the covid patient.
+
+selection of the variable in the root node
+we check the impurtiy criteria --> entropy and gain impurtiy
+
+Entropy--> checks how much our value is pure 
+and its value always lie btween 0 and 1
+low entropy--> high information gain
+high entropy--> low information gain
+
+gini impurtiy--> how much impuity are there in the datasets
+    a perfect split--> the purity and impurity forms two separte clusters
+    imperfect split--> the puritya and the impurity does not form tow separate clusters
+
+========================================================
+Random Forest algorithm
+=========================================================
+random forest algorithm based upon the supervised learning/
+can be used for both regression and classification problems
+it is a collection of multiple random trees. which is called the forest
+
+real example-->
+
+now you have to built your house and you want ot purchase a good land with effective prices
+now you will approch to the different seller
+now if you have n sellers then you have to make the n decisions
+where you want ot purchase it or not
+hence, multiple decision required thus-->
+
+so, here we are considering the multiple decisions hence it comes under the random forest algorithm
+
+
+how it works-->
+split the dataset into the training and the test dataset 
+again split the taining dataset into n number of dataset like traning_dataset_sample1, training_dataset_sample2 etc, all the samples 
+would be randomly choosen with replacement.--->called as the bootstrap samples
+
+--> after that will create a tree --> each tree will gives the results --> voting -->most voted one would be the _Ensemble (final output)
+
+===========================================================
+Naive Bayes Classifier algorithm
+===========================================================
+>based on the supervised learning
+> and used for solving the classification problem
+>probablistic qualifier
+
+>tossing a coin, what is the probability is there would be head
+
+
+naive -> all the values/features are independent of each other
+depend upon the bayes's theorem
+
+p(A|B) = P(B|A) P(A)/P(B)= P(A & B)/P(B)
+
+>probability of A given B
+>face recongnition 
+>weather forcasting
+>news categorization
+
+=======================================================================
+Support Vector Machine algorithm
+=======================================================================
+>based on supervised learning
+>used for both classification as well as regression problems
+
+labled dataset --> model training ---> predictions --->output
+
+decision boundry --> separate the two clusters
+marginal destance --> distance between the dotted lines called as the marginal distance
+support vector --> points which is used to draw the marginal distance lines 
+
+hyperplane--> creating boundries between the different clusters
+we should always choose the graph with the maximum marginal distance.-->
+because, if u select max. marginal points then it will be helpful in selection of the 
+future data points.
+
+Hyperplane in 2D and 3D space feature space-=-=-=-=-=>
+
+Types of SVM
+    linear SVM  
+    Non Linear SVM
+linear SVM: is used when dataset can be classified by just creating a staring line between them 
+non linear: when dataset cannot be classified into 2 classes using a straight lines
+
+Kernel Function:
+takes two low dimensional input space and transform it into a higher dimensional space, that is it 
+converts not separable problem to separable problem
+
+low dimensional space ---------------kernel------------> high dimensional space
+===================================================================================
+confusion Matrics
+===================================================================================
+a confusion matrics is an N*N matrix used for evaluating the performance of a classification model,
+where n is the number of target classes. this compares the actual target values with predicted target 
+values.
+
+                                                        actual values
+                        --------------------------------------------------------------------------
+                                         positive             |           negative
+                        --------------------------------------------------------------------------
+                        positive      |      TP               |               FP
+predicted value         --------------------------------------------------------------------------
+                        negative      |      FN               |               TN 
+                        --------------------------------------------------------------------------
+
+            TP: true-positive --> value predicted and in real both are same
+            FN: False negative--> value true but the model predicted as false
+
+
+n=200
+                                                 
+                        --------------------------------------------------------------------------
+                                              predicted(no)      |           predicted(yes)
+                        --------------------------------------------------------------------------
+                        actual : N0      |      TN=100           |               FP=15
+                        --------------------------------------------------------------------------
+                        actual :  yes    |      FN=5             |               TP=80 
+                        --------------------------------------------------------------------------
+                                         |       105             |                95
+
+
+TN: the patient actually dont have disease and our model also says that these patients dont have disease
+TP: patient actuall have disease and our model also says that these patients do have disease
+FP: the patient actually dont have disease but our model says that these patients do have disease
+FN: patient actually have disease but our model says that these patients dont have disease
+
+Accuracy, Eroor Rate, Precision, Recall
+---------------------------------------------------------------
+Accuracy: the no of predictions that the model got right
+accuracy= (TP+TN)/(TP+TN+FP+FN)
+--------------------------------------------------------
+Error Rate: the no of predictions that the model got wrong
+accuracy= (FP+FN)/(TP+TN+FP+FN)
+--------------------------------------------------------
+Precision: when the model predicts the positive, how often is it right?
+precision = TP/(TP+FP)
+--------------------------------------------------------
+Recall: when it is actually yes, how often does it predict yes?
+recall = TP/(TP+FN)
+
+==================================================================================
+underfitting and overfitting
+==================================================================================
+model's performance is evoluated based upon accuracy and generalisation
+accuracy: it states how well a model predicts the right output
+generalisation: it states how well model behaves on new data set 
+
+a model is said to be best when it behaves nearly same way on training as well as test 
+data with high accuracy
+
+underfitting:------------------------------
+the model which is set, has low accuracy scores on training as well as on the test data
+    underfitting occurs:
+        due to lack of data 
+        try to build a linear model with a non-linear data
+overfitting:-------------------------------
+it means model has high accuracy score on training data but low score on test data
+    overfitting occurs:
+        because of a lot more data
+        when the model fits the data too well
+        >> so the model start learning from the error and anomly which is present in the dataset
+Right Fit:---------------------------------
+model make prediction with o error.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
